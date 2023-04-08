@@ -24,8 +24,13 @@
 <body>
     <h1>Harker GPA Calculator</h1>
     <input type="submit" id="isWeighted" value="Harker Weighted" />
-    <button id="dark-mode-toggle">Toggle Dark Mode</button>
-    
+    <button id="myFunction()">Toggle Dark Mode</button>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
     
     <form id="classList">
 
@@ -217,7 +222,6 @@
     </p>
 
     <script src="script.js?v=3"></script>
-    <script src="dark-mode-toggle.js"></script>
 </body>
 
 </html>
