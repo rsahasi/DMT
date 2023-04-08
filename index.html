@@ -17,16 +17,27 @@
         ga('send', 'pageview');
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
+    
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+    .darken-mode{
+        background-color: black;
+        color: white;
+    } 
 </head>
 
 <body>
     <h1>Harker GPA Calculator</h1>
     <input type="submit" id="isWeighted" value="Harker Weighted" />
-    <button id="myFunction()">Toggle dark mode</button>
+    <button id="myFunction()">Toggle Dark Mode</button>
     <script>
         function myFunction() {
             var element = document.body;
-            element.classList.toggle("dark-mode");
+            element.classList.toggle("darken-mode");
         }
     </script>
     
