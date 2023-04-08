@@ -10,6 +10,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto" rel="stylesheet">
     <link href="main.css?v=2" rel="stylesheet">
+    <link rel="stylesheet" href="dark-mode.css" />
     
     <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -17,40 +18,14 @@
         ga('send', 'pageview');
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <style>
-        body{
-        padding:0% 3% 10% 3%;
-        text-align:center;
-        }
-        h1{
-        color: #32a852;
-        margin-top:30px;
-        }
-      
-        button{
-            cursor: pointer;
-            border: 1px solid #555;
-            text-align: center;
-            padding: 5px;
-            margin-left: 8px; 
-        }
-        .dark{
-            background-color: white;
-            color: black;
-        }
-    </style>
+   
 </head>
 
 <body>
     <h1>Harker GPA Calculator</h1>
     <input type="submit" id="isWeighted" value="Harker Weighted" />
-    <button id="myFunction()">Toggle Dark Mode</button>
-    <script>
-        function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark");
-        }
-    </script>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    
     
     <form id="classList">
 
@@ -242,7 +217,7 @@
     </p>
 
     <script src="script.js?v=3"></script>
-
+    <script src="dark-mode-toggle.js"></script>
 </body>
 
 </html>
