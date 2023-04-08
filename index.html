@@ -27,7 +27,7 @@
     <button id="myFunction()">Dark Mode</button>
     <script>
         function myFunction() {
-           if(background-color == "#fff")
+           if(background-color != "#000")
            {
                var element = document.body;
                element.classList.toggle("dark-mode");
@@ -35,11 +35,8 @@
            else
            {
                var element = document.body;
-               element.classList.toggle("main");
+               element.classList.toggle("light-mode");
            }
-               
-               
-           
         }
     </script>
     
