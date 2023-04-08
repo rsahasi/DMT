@@ -1,11 +1,11 @@
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
+:root {
+  --background-color: #000;
+  --text-color: #fff;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
+
+
