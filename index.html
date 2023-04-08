@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Harker GPA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Harker GPA Calculator">
+    <meta name="author" content="HarkerDev">
+
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto" rel="stylesheet">
+    <link href="main.css?v=2" rel="stylesheet">
+    <link rel="stylesheet" href="dark-mode.css" />
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-136862177-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+
+<body>
+    <h1>Harker GPA Calculator</h1>
+    <input type="submit" id="isWeighted" value="Harker Weighted" />
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <form id="classList">
+
+        <div class="class" id="class1"> Class 1
+
+            <select name="weight">
+                <option value="regular" selected>Regular</option>
+                <option value="smartkid">Honors/AP</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class2"> Class 2
+
+            <select name="weight">
+                <option value="regular" selected>Regular</option>
+                <option value="smartkid">Honors/AP</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class3"> Class 3
+
+            <select name="weight">
+                <option value="regular" selected>Regular</option>
+                <option value="smartkid">Honors/AP</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class4"> Class 4
+
+            <select name="weight">
+                <option value="regular" selected>Regular</option>
+                <option value="smartkid">Honors/AP</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class5"> Class 5
+
+            <select name="weight">
+                <option value="regular" selected>Regular</option>
+                <option value="smartkid">Honors/AP</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class6"> Class 6
+
+            <select name="weight">
+                <option value="regular">Regular</option>
+                <option value="smartkid">Honors/AP</option>
+                <option value="elective" selected>Elective</option>
+                <option value="none">No Class</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <div class="class" id="class7"> Class 7
+
+            <select name="weight7">
+                <option value="elective">Elective</option>
+                <option value="none" selected>No Class</option>
+            </select>
+
+            <select name="grade">
+                <option value="aplus" selected>A+</option>
+                <option value="a">A</option>
+                <option value="aminus">A-</option>
+                <option value="bplus">B+</option>
+                <option value="b">B</option>
+                <option value="bminus">B-</option>
+                <option value="cplus">C+</option>
+                <option value="c">C</option>
+                <option value="cminus">C-</option>
+                <option value="dplus">D+</option>
+                <option value="d">D</option>
+                <option value="dplus">D-</option>
+                <option value="L">F/I</option>
+            </select>
+
+        </div>
+
+        <input type="submit" id="calcGPA" value="Calculate GPA" onclick="submitForm();return false;">
+
+    </form>
+
+    <p id="gpa"></p>
+    
+    <p style="font-size: 12px;">
+        Made with &lt;&gt; by <a href="https://dev.harker.org/?utm_source=gpa&utm_medium=madeby" target="blank">HarkerDev</a>.
+    </p>
+
+    <script src="script.js?v=3"></script>
+
+</body>
+
+</html>
